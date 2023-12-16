@@ -22,11 +22,14 @@ Users should be able to:
 
 ### Screenshot
 
-#### Deskop
+#### Deskop 1920px
 ![](./screenshots/deskop-screenshot1.jpg)
 ![](./screenshots/deskop-screenshot2.jpg)
 
-#### Mobile
+#### Tablet 768px
+![](./screenshots/tablet-screenshot.jpg)
+
+#### Mobile 425px
 ![](./screenshots/mobile-screenshot1.jpg)
 
 ## My process
