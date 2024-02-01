@@ -32,6 +32,10 @@ Users should be able to:
 #### Mobile 425px
 ![](./screenshots/mobile-screenshot1.jpg)
 
+### Link
+
+- Live Site URL: [Github Pages](https://sebastian-agrano.github.io/frontend-mentor-nft-preview-card-component/)
+
 ## My process
 
 ### Built with
