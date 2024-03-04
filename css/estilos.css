@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
 * {
-  padding: 0%;
-  margin: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: hsl(217, 54%, 11%);
-  font-size: 18px;
-  font-family: Outfit;
-  color: hsl(215, 51%, 70%);
-  font-weight: 300;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+  background-color: hsl(217, 54%, 11%);
 }
 
 .tarjeta {
@@ -32,8 +32,8 @@ body {
 }
 
 .contenedor-imagen {
-  margin-top: 0px;
   position: relative;
+  margin-top: 0px;
 }
 
 .imagen-nft {
@@ -42,15 +42,15 @@ body {
 }
 
 a {
-  color: white;
   text-decoration: none;
+  color: white;
 }
 
 .contenedor-datos {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid hsl(215, 32%, 27%);
   padding-bottom: 25px;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
 }
 
 .mini-contenedor {
@@ -86,9 +86,9 @@ a {
 }
 
 .footer {
-  margin: 0 0 10px;
   display: flex;
   align-items: center;
+  margin: 0 0 10px;
 }
 
 .footer > p {
@@ -111,8 +111,8 @@ h3:hover {
   left: 0;
   width: 100%;
   height: 98%;
-  background-color: hsl(178, 100%, 50%, 0.5);
   border-radius: 10px;
+  background-color: hsl(178, 100%, 50%, 0.5);
   opacity: 0;
 }
 
