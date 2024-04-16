@@ -1,36 +1,44 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desafío Frontend Mentor</title>
-    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/estilos.css">
-</head>
-<body>
-    <main class="tarjeta">
-        <div class="contenedor-imagen">
-            <img src="images/image-equilibrium.jpg" alt="Imagen NFT" class="imagen-nft">
-            <div class="pantalla-verde"><a href="#"></a></div>
-            <img id="ojo" src="images/icon-view.svg" alt="">
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main class="card">
+      <div class="img-container">
+        <img
+          src="images/image-equilibrium.jpg"
+          alt="NFT image"
+          class="nft-image" />
+        <div class="green-bg"><a href="#"></a></div>
+        <img class="eye-img" src="images/icon-view.svg" alt="Eye" />
+      </div>
+      <a href="#" class="margin-top-25"><h3>Equilibrium #3429</h3></a>
+      <p class="margin-top-25">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div class="info-container margin-top-25">
+        <div class="info-subcontainer">
+          <img src="images/icon-ethereum.svg" alt="Etherium icon" />
+          <p class="etherium">0.041 ETH</p>
         </div>
-        <a href="#"><h3>Equilibrium #3429</h3></a>
-        <p>Our Equilibrium collection promotes balance and calm.</p>
-        <div class="contenedor-datos">
-            <div class="mini-contenedor">
-                <img src="images/icon-ethereum.svg" alt="Icono Etherium">
-                <p class="etherium">0.041 ETH</p>
-            </div>
-            <div class="mini-contenedor">
-                <img src="images/icon-clock.svg" alt="Icono reloj">
-                <p class="time">3 days left</p>
-            </div>
+        <div class="info-subcontainer">
+          <img src="images/icon-clock.svg" alt="Clock icon" />
+          <p class="time">3 days left</p>
         </div>
-        <div class="footer">
-            <img src="images/image-avatar.png" alt="Foto">
-            <p>Creation of <a href="#">Jules Wyvern</a></p>
-        </div>
+      </div>
+      <div class="footer margin-top-25">
+        <img src="images/image-avatar.png" alt="Avatar" />
+        <p>Creation of <a href="#">Jules Wyvern</a></p>
+      </div>
     </main>
-</body>
+  </body>
 </html>
